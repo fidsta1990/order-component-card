@@ -5,6 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order Card Component</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="icon"
+      href="./images/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <!-- main card -->
+      <section class="card-wrapper">
+        <!-- card top image -->
+        <article class="card-img"></article>
+        <!-- end card top image -->
+        <!-- card info -->
+        <article class="card-content">
+          <h2 class="card-title">Order Summary</h2>
+          <p class="card-info">
+            You can now listen to millions of songs, audiobooks, and podcasts on
+            any device anywhere you like!
+          </p>
+          <!-- card plan  -->
+          <div class="card-plan__details">
+            <img
+              src="./images/icon-music.svg"
+              alt="music icon"
+              class="card-icon"
+            />
+            <div class="card-plan-info">
+              <h3>Annual Plan</h3>
+              <p>$59.99/year</p>
+            </div>
+            <a href="#">Change</a>
+          </div>
+          <!-- card plan  -->
+          <button class="card-btn">Proceed to Payment</button>
+          <a href="#" class="cancel-btn">Cancel Order</a>
+        </article>
+        <!-- end card info -->
+      </section>
+      <!-- main card -->
+    </main>
+  </body>
 </html>
